@@ -1,8 +1,8 @@
 #!/bin/bash
-cp weights.json ~/go/src/json2binary
-cd ~/go/src/json2binary
+cp weights.json ~/go/src/json2binary_voice
+cd ~/go/src/json2binary_voice
 go run main.go
-cp integerdata.gob ~/go/src/speech_denoise_go
-cp integerdata.gob ~/kitchen/voice_denoising_react/public
+cp weights.gob ~/go/src/speech_denoise_go
+cp weights.gob ~/kitchen/voice_denoising_react/public
 cd ~/go/src/speech_denoise_go
 #go run main.go
